@@ -1,6 +1,10 @@
 const name = 'Max';
-const age = 29;
+let age = 29;
 const hasHobbies = true;
+
+// name ='Maximilien'
+// Will output an error
+age 30;
 
 function summarizeUser(userName, userAge, userHasHobby){
 	return (
